@@ -200,7 +200,7 @@ angular.module('confusionApp')
                 // implement a function named getPromotion
                 // that returns a selected promotion.
 
-                this.getPromotion(index) {
+                this.getPromotion = function (index) {
                     return promotions[index];
                 };
         })
